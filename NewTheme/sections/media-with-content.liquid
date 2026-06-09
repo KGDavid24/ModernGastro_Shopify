@@ -149,13 +149,13 @@
     --media-with-content-grid-columns: var(--full-page-grid-with-margins);
 
     grid-template-columns: var(--media-with-content-grid-columns);
-    grid-template-areas: 'media media media' 'content content content';
+    grid-template-areas: 'content content content' 'media media media';
 
     @media screen and (min-width: 750px) {
-      --media-with-content-grid-columns: 3.5fr 2.5fr;
+      --media-with-content-grid-columns: 2.5fr 3.5fr;
 
-      /* Default desktop layout is wide media, on the left, in full page section */
-      grid-template-areas: 'media content';
+      /* Flipped layout: content left, media right */
+      grid-template-areas: 'content media';
     }
 
     .media-block {
