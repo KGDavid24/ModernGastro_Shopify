@@ -1,0 +1,157 @@
+<section class="map-section" id="map-section">
+  <div class="map-container">
+    <div id="osm-map" style="width: 100%; height: 500px;"></div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Map Section",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "coordinate",
+      "name": "Coordinate Pin",
+      "settings": [
+        {
+          "type": "text",
+          "id": "latitude",
+          "label": "Latitude",
+          "default": "46.4611"
+        },
+        {
+          "type": "text",
+          "id": "longitude",
+          "label": "Longitude",
+          "default": "24.5577"
+        },
+        {
+          "type": "text",
+          "id": "pin_name",
+          "label": "Pin Name",
+          "default": "My Pin"
+        },
+        {
+          "type": "text",
+          "id": "pin_link",
+          "label": "Pin Link",
+          "default": "https://example.com"
+        },
+        {
+          "type": "textarea",
+          "id": "pin_text",
+          "label": "Pin Description Text",
+          "default": "This is a sample pin description."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Map Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
+
+<style>
+  .map-section {
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  .map-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+
+  .pin-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .pin-text {
+    font-size: 13px;
+  }
+</style>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css">
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Initialize the map only once
+    if (window.mapInitialized) return;
+
+    // Initialize the map
+    const map = L.map('osm-map').setView([46.4611, 24.5577], 10);
+    
+    // Add base tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Add transport layer
+    const transportLayer = L.tileLayer('https://tile.memomaps.de/tilegen/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenTransportMap contributors',
+      opacity: 0.7
+    }).addTo(map);
+
+    // Marker cluster group
+    const markers = L.markerClusterGroup();
+
+    // Function to add markers
+    const addMarkers = () => {
+      markers.clearLayers(); // Clear existing markers
+
+      {% for block in section.blocks %}
+         lat = parseFloat("{{ block.settings.latitude }}");
+         lng = parseFloat("{{ block.settings.longitude }}");
+         pinName = "{{ block.settings.pin_name }}";
+         pinText = "{{ block.settings.pin_text }}";
+         pinLink = "{{ block.settings.pin_link }}";
+         pinColor = "{{ block.settings.pin_color }}";
+
+        if (!isNaN(lat) && !isNaN(lng)) {
+          const pinIcon = L.icon({
+            iconUrl: `https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png`,
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [0, -41],
+            shadowUrl: `https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png`,
+            shadowSize: [41, 41],
+            shadowAnchor: [12, 41],
+          });
+
+          const marker = L.marker([lat, lng], { icon: pinIcon }).bindPopup(
+            `<span class="pin-name">
+              <a href="${pinLink}" target="_blank" style="color: ${pinColor}; text-decoration: none;">
+                ${pinName}
+              </a>
+            </span><br><span class="pin-text">${pinText}</span>`
+          );
+
+          markers.addLayer(marker);
+        } else {
+          console.error(`Invalid coordinates: Name=${pinName}, Lat=${lat}, Lng=${lng}`);
+        }
+      {% endfor %}
+
+      map.addLayer(markers);
+      map.invalidateSize();
+    };
+
+    // Add initial markers
+    addMarkers();
+
+    // Optional: Redraw the map after adding markers
+    map.invalidateSize();
+
+    // Mark map as initialized
+    window.mapInitialized = true;
+  });
+</script>
