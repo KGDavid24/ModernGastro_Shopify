@@ -1,0 +1,226 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_MCmehP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_H4Ftxn": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h1"
+          }
+        },
+        "text_jfEDY7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Susținând Modern Gastro, contribui la promovarea unei culturi alimentare moderne și echilibrate. Împreună, creăm o experiență culinară memorabilă, definită de pasiune pentru gust și respect pentru ingrediente.</p><p>Susținând Modern Gastro, contribui la conservarea moștenirii gastronomice locale și la promovarea unui sistem alimentar sustenabil. Împreună, construim un viitor mai verde și mai prosper, bazat pe o alimentație sănătoasă și responsabilă.</p><p>Susținând Modern Gastro, contribui la educația alimentară a comunității și la promovarea unui stil de viață responsabil.Împreună, construim o societate mai conștientă de importanța alimentației și mai implicată în soluționarea problemelor legate de foame și sărăcie.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_H4Ftxn",
+        "text_jfEDY7"
+      ],
+      "custom_css": [
+        "h2 {font-size: 28px;}",
+        "p {color: black;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5b18a775-73aa-4897-b256-c685aa19e12b",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_V9wCpH": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"custom-section\" style=\"background-color: #ffff00; padding: 40px; text-align: center;\">\n    <div class=\"text-box\" style=\"display: inline-block; background-color: #f78da7; padding: 20px;\">\n        <p style=\"color: #000000; margin: 0;\" class=\"responsive-text\">\n            Împreună construim un viitor mai bun, o farfurie la un timp!\n        </p>\n    </div>\n</div>\n\n<style>\n    .responsive-text {\n        font-size: 20px; /* Alapértelmezett méret */\n    }\n\n    @media (max-width: 768px) {\n        .responsive-text {\n            font-size: 16px; /* Mobilon kisebb méret */\n        }\n    }\n</style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_XEzfwc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_aihhWx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cum poți să ne susții?",
+            "heading_size": "h1"
+          }
+        },
+        "text_KVTwfJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Poți să ne susții alegând unul dintre pachetele noastre de susținători, dar dacă ai alte idei suntem deschiși să discutăm!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aihhWx",
+        "text_KVTwfJ"
+      ],
+      "custom_css": [
+        "h2 {font-weight: 500;}",
+        "p {color: black;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5b18a775-73aa-4897-b256-c685aa19e12b",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_EEQnBM": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"custom-section\" style=\"background-color: #ffff00; padding: 40px; max-width: 1500px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between;\">\n    <!-- Első oszlop -->\n    <div class=\"column\" style=\"background-color: #fcb900; flex: 1 1 23%; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between; margin: 10px;\">\n        <div>\n            <h3 style=\"margin: 0; font-weight: bold;\">Supporter Intro</h3>\n            <p style=\"margin: 10px 0 20px;\">Ajută-ne să creștem comunitatea</p>\n            <ul style=\"margin: 10px 0; padding-left: 20px; color: black;\">\n                <li>Prezentare nume/logo pe site și newsletter Modern Gastro cu prezentare pe Social Media.</li>\n                <li>Certificare Modern Gastro: Veți primi un certificat digital ca semn de recunoștință pentru sprijinul acordat cauzei Modern Gastro.</li>\n                <li>Acces exclusiv la evenimente: Bucurați-vă de bilete prioritare pentru evenimentele noastre și o reducere specială pentru participarea inaugurală la un atelier sau eveniment.</li>\n            </ul>\n        </div>\n        <div style=\"background-color: #000; color: #fff; padding: 10px; text-align: center;\">\n            450 Euro\n        </div>\n    </div>\n\n    <!-- Második oszlop -->\n    <div class=\"column\" style=\"background-color: #f78da7; flex: 1 1 23%; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between; margin: 10px;\">\n        <div>\n            <h3 style=\"margin: 0; font-weight: bold;\">Supporter Pro</h3>\n            <p style=\"margin: 10px 0 20px;\">Răspândim veștile bune repede</p>\n            <ul style=\"margin: 10px 0; padding-left: 20px; color: black;\">\n                <li>Întregul pachet Supporter.</li>\n                <li>Articol de prezentare proeminent a activității sau a produselor în revista noastră online și offline (tipărită 5000 exemplare distribuită gratuit x2/an).</li>\n                <li>1 coloană de articol.</li>\n                <li>Conținut promovat în valoare de 2,5% din valoarea totală a pachetului pentru a vă extinde aria de acoperire – reach approx. 10.000 pers.</li>\n            </ul>\n        </div>\n        <div style=\"background-color: #000; color: #fff; padding: 10px; text-align: center;\">\n            2400 Euro\n        </div>\n    </div>\n\n    <!-- Harmadik oszlop -->\n    <div class=\"column\" style=\"background-color: #afe75a; flex: 1 1 23%; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between; margin: 10px;\">\n        <div>\n            <h3 style=\"margin: 0; font-weight: bold;\">Supporter VIP</h3>\n            <p style=\"margin: 10px 0 20px;\">Să aducem împreună entusiasmul la un alt nivel</p>\n            <ul style=\"margin: 10px 0; padding-left: 20px; color: black;\">\n                <li>Întregul pachet Supporter.</li>\n                <li>1 pg. articol de prezentare în revista print Modern Gastro.</li>\n                <li>Conținut promovat în valoare de 2,5% din valoarea totală a pachetului pentru a vă extinde aria de acoperire – reach approx. 25.000 reach.</li>\n            </ul>\n        </div>\n        <div style=\"background-color: #000; color: #fff; padding: 10px; text-align: center;\">\n            4000 Euro\n        </div>\n    </div>\n\n    <!-- Negyedik oszlop -->\n    <div class=\"column\" style=\"background-color: #c0ebf1; flex: 1 1 23%; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); display: flex; flex-direction: column; justify-content: space-between; margin: 10px;\">\n        <div>\n            <h3 style=\"margin: 0; font-weight: bold;\">Supporter Megastar</h3>\n            <p style=\"margin: 10px 0 20px;\">Unde sunt mulți puterea crește</p>\n            <ul style=\"margin: 10px 0; padding-left: 20px; color: black;\">\n                <li>Întregul pachet Supporter.</li>\n                <li>2 pg. articol în revista print Modern Gastro. (tipărită 5000 exemplare).</li>\n                <li>Participare la workshopuri periodice și evenimente de networking.</li>\n                <li>Susținere pentru organizarea de evenimente și workshopuri tematice cu posibilitatea de a cunoaște oameni din diferite domenii interesante pentru tine.</li>\n                <li>Conținut promovat în valoare de 2,5% din valoarea totală a pachetului pentru a vă extinde aria de acoperire – reach approx. 50.000.</li>\n            </ul>\n        </div>\n        <div style=\"background-color: #000; color: #fff; padding: 10px; text-align: center;\">\n            7900 Euro\n        </div>\n    </div>\n</div>\n\n<style>\n    @media (max-width: 768px) {\n        .custom-section {\n            flex-direction: column;\n            align-items: stretch; /* Stretching the items to the full width */\n        }\n        .column {\n            width: 100%; /* Full width on mobile */\n            margin-bottom: 20px; /* Margins between columns */\n            padding: 20px; /* Consistent padding */\n        }\n    }\n</style>",
+        "color_scheme": "scheme-5b18a775-73aa-4897-b256-c685aa19e12b",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_htzLX3": {
+      "type": "rich-text",
+      "blocks": {
+        "button_LTWbKe": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contactează-ne",
+            "button_link": "shopify://pages/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_UEknwL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cercul susținerii se va reîntoarce la TINE prin munca noastră!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "button_LTWbKe",
+        "text_UEknwL"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-5b18a775-73aa-4897-b256-c685aa19e12b",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 68
+      }
+    },
+    "multicolumn_K9Brd3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_DnY8RG": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_epzXGz": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iBry9e": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Dghq9z": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jnRcyd": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_DnY8RG",
+        "column_epzXGz",
+        "column_iBry9e",
+        "column_Dghq9z",
+        "column_jnRcyd"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "Button label",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_MCmehP",
+    "custom_liquid_V9wCpH",
+    "rich_text_XEzfwc",
+    "custom_liquid_EEQnBM",
+    "rich_text_htzLX3",
+    "multicolumn_K9Brd3"
+  ]
+}

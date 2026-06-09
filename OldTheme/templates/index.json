@@ -1,0 +1,350 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "SĂRBĂTORIM GASTRONOMIA MODERNĂ ȘI TRADIȚIONALĂ CU INGREDIENTE LOCALE",
+            "heading_size": "h1"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "DESCOPERĂ-NE",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "custom_css": [
+        "h2 {font-weight: 400;}",
+        "p {color: black;}",
+        ".banner__box > *:first-child {margin-top: 90px;}",
+        ".button,.button-label {font-size: 1.5rem; letter-spacing: 0.1rem; line-height: calc(1 + 0.2 / var(--font-body-scale)); font-weight: 500;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Fructe_si_legume_proaspete_recoltate_din_pamant.webp",
+        "image_overlay_opacity": 40,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-333ebd19-3048-42f6-8eee-b54eebfba112",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "image_with_text_jLnGnQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KQJtUj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gastronomia este o odă adusă gustului și bucuriei!",
+            "heading_size": "h1"
+          }
+        },
+        "text_QtWVf6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Asociația noastră <strong>Modern Gastronomy Approach </strong>s-a înființat în 2022 cu dorința de a evidenția diversitatea gastronomiei locale, folosirea ingedientelor locale fără a uita necesitățile omului modern și monden și nu în ultimul rând importanța producătorilor locali.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_D6eUwX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Spune-ne povestea ta!",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KQJtUj",
+        "text_QtWVf6",
+        "button_D6eUwX"
+      ],
+      "custom_css": [
+        "h2 {font-weight: 500;}",
+        "p {color: black;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Gradinarita_fericita_cu_ridichi_proaspete_in_mana_si_o_lopata_alaturi.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "scheme-333ebd19-3048-42f6-8eee-b54eebfba112",
+        "color_scheme": "scheme-effff5d7-e45e-4c23-82bb-f12968ca0bb1",
+        "padding_top": 80,
+        "padding_bottom": 88
+      }
+    },
+    "rich_text_iF4Q6E": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bTnmwq": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hai să vedem împreună cum se reinterprează tradițiile culinare într-un mod inovator și captivant pentru viitorul gastronomiei.",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bTnmwq"
+      ],
+      "custom_css": [
+        "h2 {font-weight: 500;}",
+        ".rich-text__blocks {max-width: 90%;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-effff5d7-e45e-4c23-82bb-f12968ca0bb1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 100
+      }
+    },
+    "image_banner_6L3JU9": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_CNGDMK": {
+          "type": "heading",
+          "settings": {
+            "heading": "GASTRONOMIA ESTE O COMOARĂ!",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CNGDMK"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/pexels-pixabay-302577-scaled.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-4",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "rich_text_fzdqRL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eQ7wPe": {
+          "type": "heading",
+          "settings": {
+            "heading": "<a href=\"https://www.moderngastro.org/de-ce-sa-ne-sustii/\">DE CE SĂ NE SUSȚII?</a>",
+            "heading_size": "h1"
+          }
+        },
+        "text_dWyh8B": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Împreună construim un viitor mai bun, o farfurie la un timp! Fă parte din această călătorie fascinantă către o viață mai sănătoasă și mai plină de sens</p>"
+          }
+        },
+        "text_6cQcRj": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>Ei deja sunt alături de acest proiect</h4>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eQ7wPe",
+        "text_dWyh8B",
+        "text_6cQcRj"
+      ],
+      "custom_css": [
+        "h2 {font-weight: 500;}",
+        "p,h4 {color: black; font-size: 20px; font-weight: 500;}",
+        ".rich-text__blocks {max-width: 80%;}",
+        "p {color: black; font-weight: 400;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-effff5d7-e45e-4c23-82bb-f12968ca0bb1",
+        "full_width": true,
+        "padding_top": 80,
+        "padding_bottom": 20
+      }
+    },
+    "custom_liquid_Wwz9bH": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"logo-section\">\n  <div class=\"logo-container\">\n    <div class=\"logo-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0804/4881/5297/files/112_coffe.webp?v=1734335144\" alt=\"112 Coffe\">\n    </div>\n    <div class=\"logo-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0804/4881/5297/files/eldi.webp?v=1734335144\" alt=\"Eldi\">\n    </div>\n    <div class=\"logo-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0804/4881/5297/files/liliac_1.webp?v=1734335144\" alt=\"Liliac\">\n    </div>\n    <div class=\"logo-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0804/4881/5297/files/petry_bistro_1.webp?v=1734335144\" alt=\"Petry Bistro\">\n    </div>\n    <div class=\"logo-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0804/4881/5297/files/family_kitchen_1.webp?v=1734335144\" alt=\"Kitchen Family\">\n    </div>\n    <div class=\"logo-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0804/4881/5297/files/real_life.webp?v=1734335144\" alt=\"Real life\">\n    </div>\n    <div class=\"logo-item\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0804/4881/5297/files/tipografia_cromatic.webp?v=1734335144\" alt=\"Tipografia Cromatic\">\n    </div>\n  </div>\n</div>\n\n<style>\n  .logo-section {\n    padding: 0 100px; /* Nagyobb padding a szekció szélein */\n  }\n  .logo-container {\n    display: flex;\n    flex-wrap: wrap; /* Az elemek egymás alá helyezéséhez */\n    justify-content: space-between; /* Egységes elrendezés */\n    gap: 15px; /* Kisebb távolság a logók között */\n  }\n  .logo-item {\n    flex: 0 0 calc(14.2857% - 15px); /* Egymás mellett, 7 logó 14.2857% szélességgel */\n    display: flex;\n    justify-content: center; /* Középre igazítás */\n  }\n  .logo-item img {\n    max-width: 100%; /* A logók maximális szélessége */\n    height: 100%;\n  }\n\n  /* Reszponzív dizájn */\n  @media (max-width: 768px) {\n    .logo-section {\n      padding: 0 10px; /* Kisebb padding mobilon */\n    }\n    .logo-container {\n      flex-direction: row; /* Három logó egymás mellett */\n      justify-content: space-between; /* Középre igazítás mobilon */\n    }\n    .logo-item {\n      flex: 1 0 calc(33.333% - 15px); /* Három logó oszlopban mobilon */\n      margin-bottom: 10px; /* 0px távolság a logók között mobilon */\n    }\n    .logo-item img {\n      max-width: 100px; /* Kisebb logók mobilon */\n    }\n  }\n</style>",
+        "color_scheme": "scheme-333ebd19-3048-42f6-8eee-b54eebfba112",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_N8g8Ka": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_dtTpPa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Urmărește-ne pe social media să știi ce ai în farfurie!",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_hWGhc4": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Noutăți calde",
+            "button_link_1": "shopify://collections",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dtTpPa",
+        "buttons_hWGhc4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Radacini_de_legume_in_pamant.webp",
+        "image_overlay_opacity": 40,
+        "image_height": "adapt",
+        "desktop_content_position": "top-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-333ebd19-3048-42f6-8eee-b54eebfba112",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "mymap_XibtPM": {
+      "type": "mymap",
+      "blocks": {
+        "coordinate_8VWkaq": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.4411",
+            "longitude": "24.5597",
+            "pin_name": "My Pin",
+            "pin_link": "https://google.com",
+            "pin_text": "This is a sample pin description."
+          }
+        },
+        "coordinate_zMEGcX": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.4611",
+            "longitude": "24.5577",
+            "pin_name": "My Pin",
+            "pin_link": "https://example.com",
+            "pin_text": "This is a sample pin description."
+          }
+        },
+        "coordinate_6UiBzY": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.4611",
+            "longitude": "24.5577",
+            "pin_name": "My Pin",
+            "pin_link": "https://example.com",
+            "pin_text": "This is a sample pin description."
+          }
+        },
+        "coordinate_XN8iwY": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.4711",
+            "longitude": "24.5877",
+            "pin_name": "My Pin",
+            "pin_link": "https://example.com",
+            "pin_text": "This is a sample pin description."
+          }
+        },
+        "coordinate_MgzHXB": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.4611",
+            "longitude": "24.5577",
+            "pin_name": "My Pin",
+            "pin_link": "https://example.com",
+            "pin_text": "This is a sample pin description."
+          }
+        },
+        "coordinate_YmE7rG": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.4611",
+            "longitude": "24.5577",
+            "pin_name": "My Pin",
+            "pin_link": "https://dalbe.ro",
+            "pin_text": "This is a sample pin description."
+          }
+        }
+      },
+      "block_order": [
+        "coordinate_8VWkaq",
+        "coordinate_zMEGcX",
+        "coordinate_6UiBzY",
+        "coordinate_XN8iwY",
+        "coordinate_MgzHXB",
+        "coordinate_YmE7rG"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "17338357889805babe": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "image_with_text_jLnGnQ",
+    "rich_text_iF4Q6E",
+    "image_banner_6L3JU9",
+    "rich_text_fzdqRL",
+    "custom_liquid_Wwz9bH",
+    "image_banner_N8g8Ka",
+    "mymap_XibtPM",
+    "17338357889805babe"
+  ]
+}

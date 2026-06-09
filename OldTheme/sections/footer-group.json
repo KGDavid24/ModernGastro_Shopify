@@ -1,0 +1,66 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "link_list": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Informații",
+            "menu": "footer"
+          }
+        },
+        "text_UHf9ta": {
+          "type": "text",
+          "settings": {
+            "heading": "<strong>Modern Gastronomy Aproach</strong>",
+            "subtext": "<p>Phone: +40 743 079 466</p><p>Email: romania@moderngastro.org</p>"
+          }
+        }
+      },
+      "block_order": [
+        "link_list",
+        "text_UHf9ta"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-6608154d-8002-4773-8ee4-bbc96c2b3f49",
+        "newsletter_enable": true,
+        "newsletter_heading": "Abonează-te la e-mailurile noastre",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_dw6JEH": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"page-width\" style=\"text-align:center;\">\n  <a href=\"https://anpc.ro/ce-este-sal/\" aria-describedby=\"a11y-external-message\"><img src=\"https://cdn.shopify.com/s/files/1/0868/5217/4102/files/anpc-sal.webp?v=1715772763\" alt=\"Ce este SAL?\" style=\"width:250px;height:auto;\"></a>\n   <a href=\"https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO\"><img src=\"https://cdn.shopify.com/s/files/1/0374/2711/8218/files/anpc-sol.webp?v=1715773268\" alt=\"Soluționarea online a litigiilor\" style=\"width:250px;height:auto;\"></a>\n\n</div>",
+        "color_scheme": "scheme-6608154d-8002-4773-8ee4-bbc96c2b3f49",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "footer",
+    "custom_liquid_dw6JEH"
+  ]
+}

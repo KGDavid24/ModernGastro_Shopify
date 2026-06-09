@@ -1,0 +1,302 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_banner_KYqPKY": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_kT7K7A": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kT7K7A"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/O_panorama_de_pe_un_tara.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 12
+      }
+    },
+    "rich_text_gfgKGL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_QWXgHT": {
+          "type": "text",
+          "settings": {
+            "text": "{{ page.content }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_QWXgHT"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "mymap_CbMRC4": {
+      "type": "mymap",
+      "blocks": {
+        "coordinate_fxH9wr": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.5433339553038",
+            "longitude": "24.558285941595",
+            "pin_name": "Visit Mureș",
+            "pin_link": "http://www.visitmures.com/",
+            "pin_text": ""
+          }
+        },
+        "coordinate_PYHyWy": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.54870858727806",
+            "longitude": "24.564726913493445",
+            "pin_name": "Petry Bistro GrillxWine",
+            "pin_link": "https://www.petrybistro.ro/",
+            "pin_text": ""
+          }
+        },
+        "coordinate_yytWHG": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.61180504118527",
+            "longitude": "24.423134800000003",
+            "pin_name": "Tărâmul Lavandei",
+            "pin_link": "http://www.taramul-lavandei.ro/",
+            "pin_text": ""
+          }
+        },
+        "coordinate_dww9hj": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.88250120011071",
+            "longitude": "24.653990868597138",
+            "pin_name": "Crama Liliac",
+            "pin_link": "https://liliac.com/",
+            "pin_text": ""
+          }
+        },
+        "coordinate_EjWpPR": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.27170815649266",
+            "longitude": "24.513502828835517",
+            "pin_name": "Manufactura de Brânză",
+            "pin_link": "http://www.manufacturadebranza.ro/",
+            "pin_text": ""
+          }
+        },
+        "coordinate_rpr4jf": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.766959578248354",
+            "longitude": "24.723748315342082",
+            "pin_name": "Răzvan Idicel",
+            "pin_link": "https://razvanidicel.ro/",
+            "pin_text": ""
+          }
+        },
+        "coordinate_MnY4jY": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.64266113717144,",
+            "longitude": "24.50497077061632",
+            "pin_name": "Sunrise Garden",
+            "pin_link": "https://www.facebook.com/profile.php?id=100032389376556",
+            "pin_text": ""
+          }
+        },
+        "coordinate_xCwUjk": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.573763079798645",
+            "longitude": "24.907543084657924",
+            "pin_name": "Black Angus Farm",
+            "pin_link": "https://www.blackangusfarm.ro/",
+            "pin_text": ""
+          }
+        },
+        "coordinate_pJment": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.38948447664254",
+            "longitude": "24.677237466726123",
+            "pin_name": "Brutăria Eldi",
+            "pin_link": "http://www.eldi.ro/",
+            "pin_text": ""
+          }
+        },
+        "coordinate_33EP9f": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.33127924094181",
+            "longitude": "24.719583216589974",
+            "pin_name": "Rubarbă",
+            "pin_link": "https://plantatie.rabarbura.ro/",
+            "pin_text": ""
+          }
+        },
+        "coordinate_r8m3ji": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.52446895551312",
+            "longitude": "24.614958368581004",
+            "pin_name": "Family Kitchen",
+            "pin_link": "https://familykitchen.ro/",
+            "pin_text": ""
+          }
+        },
+        "coordinate_eTAJVJ": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.55080524535125",
+            "longitude": "24.554929371164476",
+            "pin_name": "BOCP",
+            "pin_link": "https://reallife.solutions/",
+            "pin_text": ""
+          }
+        },
+        "coordinate_fLFK3e": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.54364732445372",
+            "longitude": "24.557201742328964",
+            "pin_name": "112 Coffee",
+            "pin_link": "http://www.112coffee.com/",
+            "pin_text": ""
+          }
+        },
+        "coordinate_rHatbM": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.14505217090386",
+            "longitude": "24.691984453221778",
+            "pin_name": "Bethlen Estates",
+            "pin_link": "http://www.bethlenestates.com/",
+            "pin_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "coordinate_fxH9wr",
+        "coordinate_PYHyWy",
+        "coordinate_yytWHG",
+        "coordinate_dww9hj",
+        "coordinate_EjWpPR",
+        "coordinate_rpr4jf",
+        "coordinate_MnY4jY",
+        "coordinate_xCwUjk",
+        "coordinate_pJment",
+        "coordinate_33EP9f",
+        "coordinate_r8m3ji",
+        "coordinate_eTAJVJ",
+        "coordinate_fLFK3e",
+        "coordinate_rHatbM"
+      ],
+      "settings": {}
+    },
+    "custom_liquid_KW6CY4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"custom-section\" style=\"background-color: rgba(255, 205, 87, 0.19); padding: 40px; text-align: center;\">\n    <!-- SVG ikon -->\n    <div class=\"icon-wrapper\" style=\"display: inline-block;\">\n        <svg xmlns=\"https://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" role=\"graphics-symbol\" aria-hidden=\"false\" aria-label=\"\" style=\"width: 42px; height: 42px; fill: #333; filter: drop-shadow(0px 0px 0px #00000070);\">\n            <path d=\"M96 96C42.98 96 0 138.1 0 192s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192C192 138.1 149 96 96 96zM448 192c0-53.02-42.98-96-96-96s-96 42.98-96 96s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192z\"></path>\n        </svg>\n    </div>\n\n    <!-- Idézet -->\n    <div class=\"quote\" style=\"margin-top: 20px; font-size: 18px; color: #333; font-style: italic;\">\n        „Ai grijă de corpul tău. Este singurul loc în care trebuie să locuiești.”\n    </div>\n\n    <!-- Szerző -->\n    <div class=\"author\" style=\"margin-top: 10px; font-size: 20px; font-weight: bold; color: #333;\">\n        Jim Rohn\n    </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_iEcDpG": {
+      "type": "image-banner",
+      "blocks": {
+        "text_33YVVV": {
+          "type": "text",
+          "settings": {
+            "text": "Dorim ca mâncarea din zonă să fie o sărbătoare continuă, o experiență culinară bogată și plină de satisfacții. Te invităm să descoperi gustul autentic al alimentelor proaspete, preparate cu pasiune și respect pentru tradiție.",
+            "text_style": "body"
+          }
+        },
+        "heading_wmEH7Y": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Te invităm la o sărbătoare a gustului</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_ngkEYW": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Alătură-te comunității Modern Gastro",
+            "button_link_1": "shopify://collections/frontpage",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_33YVVV",
+        "heading_wmEH7Y",
+        "buttons_ngkEYW"
+      ],
+      "custom_css": [
+        "p {padding-bottom: 15px; font-weight: 300; font-size: 18px; color: white;}",
+        "h2 {font-size: 28px; padding-bottom: 15px; font-weight: 300; color: white;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/O_panorama_de_pe_un_tara.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "fixed",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-71099099-0e73-42b2-8c14-3afc9b2ab7a0",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "image_banner_KYqPKY",
+    "main",
+    "rich_text_gfgKGL",
+    "mymap_CbMRC4",
+    "custom_liquid_KW6CY4",
+    "image_banner_iEcDpG"
+  ]
+}

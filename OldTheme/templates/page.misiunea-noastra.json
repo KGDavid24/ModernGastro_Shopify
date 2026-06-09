@@ -1,0 +1,200 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_67dUpa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_FVHPry": {
+          "type": "heading",
+          "settings": {
+            "heading": "Misiunea Noastră",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FVHPry"
+      ],
+      "custom_css": [
+        "h2 {font-size: 28px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 20
+      }
+    },
+    "image_banner_dXqFik": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/O_femeie_fericita_in_gradina.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": true,
+        "color_scheme": "",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "custom_liquid_gqez77": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "h2 {font-size: 23px; color: #1b9f04; padding-bottom: 15px; font-weight: 300;}",
+        ".column-left div {padding-top: 15px; font-weight: 500; color: black;}",
+        ".column-right p {font-weight: normal;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"container\" style=\"padding: 0 20px; max-width: 1500px; margin: 0 auto;\">\n    <div class=\"custom-two-column-section\" style=\"display: flex; flex-wrap: wrap;\">\n        <!-- Első oszlop (30%) -->\n        <div class=\"column-left\">\n            <h2 style=\"margin: 0; text-align: left;\">NE-AM ALES O MISIUNE POSIBILĂ</h2>\n            <hr style=\"border: none; border-top: 2px solid #000; width: 30%; margin: 10px 0;\">\n            <div style=\"text-align: left;\">Susținem transmiterea orală a tradițiilor culinare din generație în generație, considerând-o o componentă esențială a identității regionale.</div>\n        </div>\n\n        <!-- Második oszlop (70%) -->\n        <div class=\"column-right\">\n            <p style=\"text-align: left;\">\n                Investigăm modul în care specificul gastronomic și cultural al unei regiuni este influențat de interconexiunea dintre zonele rurale și urbane. \n                Depășim simpla satisfacere a nevoilor fiziologice și promovăm alimentele ca o formă de exprimare a moștenirii culturale și a identității locale. \n                Stimularea „amintirii ancestrale” prin intermediul preparatelor tradiționale, reconectând oamenii la rădăcinile lor și la valorile autentice.\n            </p>\n        </div>\n    </div>\n</div>\n\n<style>\n.column-left {\n    width: 30%; /* Osztályok szélességének beállítása */\n    padding-right: 10px;\n}\n\n.column-right {\n    width: 70%; /* Osztályok szélességének beállítása */\n    padding-left: 10px;\n}\n\n@media only screen and (max-width: 768px) { /* Javított szintaxis */\n    .custom-two-column-section {\n        flex-direction: column; /* Elemek egymás alá helyezése mobilon */\n        align-items: center; /* Középre igazítás */\n    }\n\n    .column-left,\n    .column-right {\n        width: 100%; /* Osztályok szélességének beállítása mobilon */\n        padding: 0; /* Padding eltávolítása */\n        text-align: center; /* Szöveg középre igazítása */\n    }\n\n    h2, p {\n        width: calc(100% - 40px); /* Teljes szélesség a szövegnek, figyelembe véve a paddingot */\n        margin: 0; /* Margin eltávolítása a szövegből */\n        padding: 20px 0; /* Padding hozzáadása, hogy ne tapadjon a szöveg az oldal széléhez */\n    }\n}\n</style>",
+        "color_scheme": "scheme-effff5d7-e45e-4c23-82bb-f12968ca0bb1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_E8AeMt": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_GmhJyN": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Căutăm & Descoperim</strong>",
+            "text": "<p>Ne dorim să explorăm efectele pe care le are legătura dintre mediul rural și cel urban în crearea specificului gastronomic și cultural al unei regiuni, promovând totodată moștenirea culinară transmisă oral din generație în generație.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TAJrdh": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Creăm comunități</strong>",
+            "text": "<p>Descoperim puterea comunităților care apreciază gustul autentic al mâncărurilor din produse locale! Împreună, ne unim pentru a susține agricultorii și producătorii din apropiere, explorând savoarea inconfundabilă a ingredientelor proaspete și de sezon.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mfRTP9": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Promovăm hrana sănătoasă</strong>",
+            "text": "<p>Promovăm alegerile alimentare hrănitoare care susțin sănătatea împreună cu tine. Susținem alegerile holistice care hrănesc atât corpul cât și sufletul. Sănătatea TA începe din farfurie!</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_whK7MN": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Susținem comerțul sustenabil</strong>",
+            "text": "<p>Susținem implementarea unor modele economice ecologice, sustenabile și bazate pe comerțul echitabil în domeniul alimentației publice, o abordare prin care promovăm ulterior un stil de viață mai sănătos, care nu se limitează doar la o alimentație echilibrată, la sport și activități recreative.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_GmhJyN",
+        "column_TAJrdh",
+        "column_mfRTP9",
+        "column_whK7MN"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-e45f3416-d6c8-4686-a91e-c7532962a8d9",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_c4grhL": {
+      "type": "image-banner",
+      "blocks": {
+        "text_iJBKdJ": {
+          "type": "text",
+          "settings": {
+            "text": "Stimulăm aprecierea pentru diversitatea gastronomică locală și susținem importanța conservării tradițiilor culinare",
+            "text_style": "body"
+          }
+        },
+        "heading_8gE4zJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "CONȘTIENTIZĂM VALORILE MOȘTENIRII CULINARE ȘI ÎNCURAJĂM INTRODUCEREA PRACTICILOR ALIMENTARE RESPONSABILE A UNUI CONSUM CONȘTIENT",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_9RJUiH": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Hai să ne cunoaștem",
+            "button_link_1": "shopify://pages/de-ce-sa-ne-susții",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_iJBKdJ",
+        "heading_8gE4zJ",
+        "buttons_9RJUiH"
+      ],
+      "custom_css": [
+        "h2 {font-size: 25px; padding-bottom: 15px; font-weight: 300;}",
+        "p {padding-bottom: 15px; font-weight: 300; font-size: 18px; color: white;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/O_albina_pe_laptisorul_de_miere.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "zoom-in",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_67dUpa",
+    "image_banner_dXqFik",
+    "custom_liquid_gqez77",
+    "multicolumn_E8AeMt",
+    "image_banner_c4grhL"
+  ]
+}

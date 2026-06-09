@@ -1,0 +1,91 @@
+<body>
+    <main class="rowSalePoint">
+      <section class="sale-point-section">
+        <p>{{ section.settings.desc }}</p>
+      </section>
+      {% for block in section.blocks %}
+        <section class="contentBlock">
+          {% if block.settings.img %}
+            <img
+              class="saleImg"
+              src="{{ block.settings.img | img_url:'master' }}"
+              alt="Sale Image"
+              width="276"
+              height="189"
+            >
+          {% endif %}
+          {% if block.settings.icon %}
+            <img
+              class="saleIcon"
+              src="{{ block.settings.icon | img_url:'master'  }}"
+              alt="Icon"
+              width="43.56"
+              height="43.56"
+            >
+          {% endif %}
+          <p class="percentage">
+            {{ block.settings.numbPercent -}}
+            <span>%</span>
+          </p>
+          <h5 class="titleSP">{{ block.settings.saleTitle }}</h5>
+          <p class="descSP">{{ block.settings.salesDesc }}</p>
+        </section>
+      {% endfor %}
+    </main>
+  </body>
+
+
+  {% schema %}
+{
+  "name": "BWQuickPoints",
+  "settings": [
+    {
+      "type": "richtext",
+      "label": "General Description",
+      "id": "desc",
+      "default": "<p>Add description for this section</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "BW - Sale Points"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "salepoint",
+      "name": "Sale point",
+      "settings": [
+        {
+          "type": "image_picker",
+          "label": "Sale image",
+          "id": "img"
+        },
+        {
+          "type": "image_picker",
+          "label": "Icon",
+          "id": "icon"
+        },
+        {
+          "type": "text",
+          "label": "Percentage Number",
+          "id": "numbPercent",
+          "default": "100"
+        },
+        {
+          "type": "text",
+          "label": "Sale title",
+          "id": "saleTitle",
+          "default": "Here's the column sale title"
+        },
+        {
+          "type": "richtext",
+          "label": "Sale Description",
+          "id": "salesDesc",
+          "default": "<p>Here's the column sale description</p>"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

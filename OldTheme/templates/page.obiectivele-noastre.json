@@ -1,0 +1,385 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_Qgzi9Y": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UHHQB6": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ page.title }}",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UHHQB6"
+      ],
+      "custom_css": [
+        "h2 {font-size: 28px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 64,
+        "padding_bottom": 20
+      }
+    },
+    "image_banner_KYqPKY": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_kT7K7A": {
+          "type": "heading",
+          "settings": {
+            "heading": "Obiectivele noastre",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kT7K7A"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/O_panorama_de_pe_un_tara.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-4",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": true
+      }
+    },
+    "rich_text_xVCWbW": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BtTqR3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Noi, cei din echipa Modern Gastro ne-am angajat să educăm comunitatea către un comportament alimentar mai sănătos și mai conștient. Dorim să facem oamenii să realizeze importanța alegerilor alimentare și să le oferim alternative gastronomice moderne, adaptate la specificul regiunii.</p>"
+          }
+        },
+        "heading_gyD8Hy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cum facem asta?",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "text_BtTqR3",
+        "heading_gyD8Hy"
+      ],
+      "custom_css": [
+        "p {padding-bottom: 15px; font-weight: 300; font-size: 18px; color: black;}",
+        "h2 {font-size: 25px; padding-bottom: 15px; font-weight: 500;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_3gwnRF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xkQnVR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Spunem poveștile ingredientelor",
+            "heading_size": "h1"
+          }
+        },
+        "text_mG4L4P": {
+          "type": "text",
+          "settings": {
+            "text": "<p>De la producător la farfurie, dezvăluim originea și traseul fiecărui ingredient.O farfurie aburindă, arome îmbietoare ce te ademenesc, culori vibrante ce îți trezesc curiozitatea. Fiecare element din farfurie are o poveste de spus, o călătorie fascinantă de la sursă la masă.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xkQnVR",
+        "text_mG4L4P"
+      ],
+      "custom_css": [
+        "p {padding-bottom: 15px; font-weight: 300; font-size: 18px; color: black;}",
+        "h2 {font-size: 23px; padding-bottom: 15px; font-weight: 500; color: black;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Rosii_si_morcovi_proaspeti_in_gradina.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 12,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_nF3dq6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rtqnKJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sărbătorim prin promovare producătorii",
+            "heading_size": "h1"
+          }
+        },
+        "text_EcXbHg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Susținem fermierii și producătorii locali care cultivă și prepară alimente cu pasiune și respect pentru natură. Credem în importanța poveștilor lor menite să fie spuse. maginează-ți legumele proaspete culese din grădina bunicului, crescute cu drag și grijă, cu respect pentru pământ și natură. Grâul auriu, mângâiat de soare, transformat în făină fină la moara din sat.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rtqnKJ",
+        "text_EcXbHg"
+      ],
+      "custom_css": [
+        "p {padding-bottom: 15px; font-weight: 300; font-size: 18px; color: black;}",
+        "h2 {font-size: 23px; padding-bottom: 15px; font-weight: 500; color: black;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/O_fata_mancand_legume_in_gradina.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_cK6nPR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RMCbiM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Organizăm evenimente unice",
+            "heading_size": "h1"
+          }
+        },
+        "text_W6frRW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Degustări, ateliere de gătit, workshopuri, târguri de produse locale – toate contribuie la educația alimentară și la promovarea unui stil de viață sănătos.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RMCbiM",
+        "text_W6frRW"
+      ],
+      "custom_css": [
+        "p {padding-bottom: 15px; font-weight: 300; font-size: 18px; color: black;}",
+        "h2 {font-size: 23px; padding-bottom: 15px; font-weight: 500; color: black;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/O_masa_aranjata_intr-un_restaurant.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_7tURcb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_PxqAQ3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Oferim alternative moderne",
+            "heading_size": "h1"
+          }
+        },
+        "text_hiC6NH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reinterpretăm rețetele tradiționale cu o viziune modernă, folosind tehnici inovatoare și ingrediente locale de sezon. Ingredientele proaspete ajung în mâinile iscusite ale bucătarilor noștri, pasionați de gastronomie și dedicați creării de preparate delicioase și sănătoase. Cu talent și creativitate, combină ingredientele, respectând rețetele tradiționale reinterpretate cu o viziune modernă.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PxqAQ3",
+        "text_hiC6NH"
+      ],
+      "custom_css": [
+        "p {padding-bottom: 15px; font-weight: 300; font-size: 18px; color: black;}",
+        "h2 {font-size: 23px; padding-bottom: 15px; font-weight: 500; color: black;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Prezentare_a_mesei_intr-un_restaurant.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "center",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "custom_liquid_KW6CY4": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"custom-section\" style=\"background-color: rgba(255, 205, 87, 0.19); padding: 40px; text-align: center;\">\n    <!-- SVG ikon -->\n    <div class=\"icon-wrapper\" style=\"display: inline-block;\">\n        <svg xmlns=\"https://www.w3.org/2000/svg\" viewBox=\"0 0 448 512\" role=\"graphics-symbol\" aria-hidden=\"false\" aria-label=\"\" style=\"width: 42px; height: 42px; fill: #333; filter: drop-shadow(0px 0px 0px #00000070);\">\n            <path d=\"M96 96C42.98 96 0 138.1 0 192s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192C192 138.1 149 96 96 96zM448 192c0-53.02-42.98-96-96-96s-96 42.98-96 96s42.98 96 96 96c11.28 0 21.95-2.305 32-5.879V288c0 35.3-28.7 64-64 64c-17.67 0-32 14.33-32 32s14.33 32 32 32c70.58 0 128-57.42 128-128V192z\"></path>\n        </svg>\n    </div>\n\n    <!-- Idézet -->\n    <div class=\"quote\" style=\"margin-top: 20px; font-size: 18px; color: #333; font-style: italic;\">\n        „Ai grijă de corpul tău. Este singurul loc în care trebuie să locuiești.”\n    </div>\n\n    <!-- Szerző -->\n    <div class=\"author\" style=\"margin-top: 10px; font-size: 20px; font-weight: bold; color: #333;\">\n        Jim Rohn\n    </div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_HLMNAr": {
+      "type": "rich-text",
+      "blocks": {
+        "text_eRJDH6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fă parte din această călătorie fascinantă către o viață mai sănătoasă și mai plină de sens. Descoperă poveștile din spatele preparatelor noastre, explorează diversitatea gastronomică locală și fă alegeri alimentare conștiente.</p>"
+          }
+        },
+        "heading_6mjEeK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Împreună, putem construi o cultură gastronomică mai bună!</strong>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "text_eRJDH6",
+        "heading_6mjEeK"
+      ],
+      "custom_css": [
+        "p {padding-bottom: 15px; font-weight: 300; font-size: 18px; color: black;}",
+        "h2 {font-size: 25px; padding-bottom: 15px; font-weight: 500;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_iEcDpG": {
+      "type": "image-banner",
+      "blocks": {
+        "text_33YVVV": {
+          "type": "text",
+          "settings": {
+            "text": "Dorim ca mâncarea din zonă să fie o sărbătoare continuă, o experiență culinară bogată și plină de satisfacții. Te invităm să descoperi gustul autentic al alimentelor proaspete, preparate cu pasiune și respect pentru tradiție.",
+            "text_style": "body"
+          }
+        },
+        "heading_wmEH7Y": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Te invităm la o sărbătoare a gustului</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_ngkEYW": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Alătură-te comunității Modern Gastro",
+            "button_link_1": "shopify://collections/frontpage",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_33YVVV",
+        "heading_wmEH7Y",
+        "buttons_ngkEYW"
+      ],
+      "custom_css": [
+        "p {padding-bottom: 15px; font-weight: 300; font-size: 18px; color: white;}",
+        "h2 {font-size: 28px; padding-bottom: 15px; font-weight: 300; color: white;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/O_panorama_de_pe_un_tara.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_behavior": "fixed",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "scheme-71099099-0e73-42b2-8c14-3afc9b2ab7a0",
+        "stack_images_on_mobile": true,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_Qgzi9Y",
+    "image_banner_KYqPKY",
+    "rich_text_xVCWbW",
+    "image_with_text_3gwnRF",
+    "image_with_text_nF3dq6",
+    "image_with_text_cK6nPR",
+    "image_with_text_7tURcb",
+    "custom_liquid_KW6CY4",
+    "rich_text_HLMNAr",
+    "image_banner_iEcDpG"
+  ]
+}

@@ -1,0 +1,59 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_7U98Ni": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8TXciK": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Povești faine</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_BAytVV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Află cine sunt cei care sunt convinși că se poate mânca, sănătos, modern și sustenabil!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8TXciK",
+        "text_BAytVV"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "layout": "grid",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "rich_text_7U98Ni",
+    "main"
+  ]
+}

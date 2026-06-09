@@ -1,0 +1,44 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "mymap_UAetEF": {
+      "type": "mymap",
+      "blocks": {
+        "coordinate_7iVMfp": {
+          "type": "coordinate",
+          "settings": {
+            "latitude": "46.4611",
+            "longitude": "24.5577",
+            "pin_name": "Sweet Mountain",
+            "pin_link": "https://www.moderngastro.org/family-kitchen-gatit-cu-dragoste-si-sustenabilitate/",
+            "pin_text": "This is a sample pin description."
+          }
+        }
+      },
+      "block_order": [
+        "coordinate_7iVMfp"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "mymap_UAetEF"
+  ]
+}
